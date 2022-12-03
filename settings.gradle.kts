@@ -1,0 +1,5 @@
+includeBuild("get-gradle")
+include("task-execution-graph")
+include("task-dependency")
+include("inherited-properties")
+include("inherited-properties:illegal-access")

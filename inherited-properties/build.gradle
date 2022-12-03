@@ -1,0 +1,2 @@
+ext.foo = "fooValue"
+def fooCallable() { }

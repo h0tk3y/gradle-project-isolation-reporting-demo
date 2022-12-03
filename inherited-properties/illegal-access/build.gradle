@@ -1,0 +1,7 @@
+// Dynamic lookup of properties in a parent project is reported as project isolation problems, each trace in the report
+// also mentions the property that was accessed:
+foo
+findProperty("not-defined-anywhere")
+
+// Dynamic method calls are tracked, too:
+fooCallable()
